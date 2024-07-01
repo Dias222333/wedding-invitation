@@ -1,1 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 700px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.date, .location {
+    font-weight: bold;
+}
+
+.rsvp {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.map a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map a:hover {
+    text-decoration: underline;
+}
+
+.wedding-image {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
 
